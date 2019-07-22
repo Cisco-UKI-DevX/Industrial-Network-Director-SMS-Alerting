@@ -4,7 +4,7 @@ This project utilises Cisco Industrial Network Director (IND) - a network manage
 
 https://www.cisco.com/c/en/us/products/cloud-systems-management/industrial-network-director/index.html
 
-Typically management of these networks can either be at a site level where operational engineers may not include tools such as Industrial Network Director in their day to day workflows. Therefore building this extension with SMS will notify OT users proactively to alert and reduce time falt finding
+Typically management of these networks can either be at a site level where operational engineers may not include tools such as Industrial Network Director in their day to day workflows. Therefore building this extension with SMS will notify OT users proactively to alert and reduce time fault finding.
 
 > Prerequsites for this project - Python 2.7 or later, Twilio account
 
@@ -14,4 +14,4 @@ Typically management of these networks can either be at a site level where opera
 
 #### Step 1
 
-The first step to running this project
+The first step to running this project is to create an account on Twilio.com
