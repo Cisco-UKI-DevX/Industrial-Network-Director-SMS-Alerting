@@ -17,3 +17,21 @@ Typically management of these networks can either be at a site level where opera
 The first step to running this project is to create an account on Twilio.com, from there you will need to create a project for programmable SMS. To see the process for this please refer to the video below. Once the project has been created you will be given an auth token and account sid. Save these for later as we will need it when we run the script
 
 > Please note, by default Twilio will create these projects as a trial account. You will need to follow Twilio processes to move this from trial to production.
+
+#### Step 2
+
+Before yyou run the python script to set up the alerting make sure you have the following:
+
+1. IP address of IND system
+2. Username for IND system
+3. Password for IND system
+4. Mobile number for alerts to be sent to
+5. Sending mobile number, registered on Twilio
+6. Twiolio Account SID
+7. Twilio auth token
+
+Once you have the 
+
+#### Step 3
+
+You should then recieve a text on the registered mobile phone number confirming that the script is running and the mobile is registered. For as long as the script will run any new alerts generated will trigger an SMS alert.
