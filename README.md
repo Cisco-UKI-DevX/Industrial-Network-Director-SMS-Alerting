@@ -14,6 +14,6 @@ Typically management of these networks can either be at a site level where opera
 
 #### Step 1
 
-The first step to running this project is to create an account on Twilio.com, from there you will need to create a project for programmable SMS. To see the process for this please refer to the video below. Once the project has been created you will be given an auth token. Save this for later as we will need it when we run the script
+The first step to running this project is to create an account on Twilio.com, from there you will need to create a project for programmable SMS. To see the process for this please refer to the video below. Once the project has been created you will be given an auth token and account sid. Save these for later as we will need it when we run the script
 
-> Please note, by default Twilio will create these projects as a trial account. You will need to follow Twillio processes to move this from trial to production.
+> Please note, by default Twilio will create these projects as a trial account. You will need to follow Twilio processes to move this from trial to production.
