@@ -30,7 +30,7 @@ Before yyou run the python script to set up the alerting make sure you have the 
 6. Twiolio Account SID
 7. Twilio auth token
 
-Once you have the 
+Once you have the following information, run the python script byy issuing the command `python IND_Alerts.py` and follow the on screen prompts. Once the script recieves the above 7 variables it will then move intoa listening mode.
 
 #### Step 3
 
