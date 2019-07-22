@@ -14,24 +14,24 @@ Typically management of these networks can either be at a site level where opera
 
 #### Step 1
 
-The first step to running this project is to create an account on Twilio.com, from there you will need to create a project for programmable SMS. To see the process for this please refer to the video below. Once the project has been created you will be given an auth token and account sid. Save these for later as we will need it when we run the script
+The first step to running this project is to create an account on Twilio.com, from there you will need to create a project for programmable SMS. To get to grips with Twilio, visit Twilio.com and review the documentation and user guides which will walk through the process of getting started with Twilio Once the project has been created you will be given an Twilio mobile number, auth token and account sid. Save these for later as we will need it when we start the script.
 
 > Please note, by default Twilio will create these projects as a trial account. You will need to follow Twilio processes to move this from trial to production.
 
 #### Step 2
 
-Before yyou run the python script to set up the alerting make sure you have the following:
+Before you run the python script to set up the alerting make sure you have the following:
 
 1. IP address of IND system
 2. Username for IND system
 3. Password for IND system
 4. Mobile number for alerts to be sent to
 5. Sending mobile number, registered on Twilio
-6. Twiolio Account SID
+6. Twilio Account SID
 7. Twilio auth token
 
-Once you have the following information, run the python script byy issuing the command `python IND_Alerts.py` and follow the on screen prompts. Once the script recieves the above 7 variables it will then move intoa listening mode.
+Once you have the following information, run the python script by issuing the command `python IND_Alerts.py` and follow the on screen prompts. Once the script recieves the above 7 variables it will then move into a listening mode.
 
 #### Step 3
 
-You should then recieve a text on the registered mobile phone number confirming that the script is running and the mobile is registered. For as long as the script will run any new alerts generated will trigger an SMS alert.
+As soon as the process moves into listening mode you should then recieve a text on the registered mobile phone number confirming that the script is running and the mobile is registered. The script will then run in the background monitoring the IND system, in the event of any new alerts generated it will trigger an SMS alert.
